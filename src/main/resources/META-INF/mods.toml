@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="areadig"
+version="1.0.0"
+displayName="Area Dig (Область)"
+description='''
+Чары "Область" для кирки и лопаты: уровни I-IV копают 2x2, 3x3, 4x4 и 5x5.
+Зажми Shift, чтобы копать один блок.
+'''
+
+[[dependencies.areadig]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.areadig]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
